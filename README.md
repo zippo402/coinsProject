@@ -1,37 +1,38 @@
 # coinsProject
 This is an assignment for Athanor interview
-## 1. Install coin metrics python wrapper in the coinsProject folder， here is the link: https://github.com/man-c/coinmetrics
+> 1. Install coin metrics python wrapper in the coinsProject folder， here is the link: https://github.com/man-c/coinmetrics
 
-## 2. Install modules 
+> 2. Install modules 
 
-pip install mysql-connector-python-rf
+*pip install mysql-connector-python-rf*
 
-pip install django
+*pip install django*
 
-pip install mysqlclient
+*pip install mysqlclient*
 
-## 3. Modify database setting for your mysql database in /coinsProject/src/initdatabase/mydatabase.py
+> 3. Modify database setting for your mysql database in /coinsProject/src/initdatabase/mydatabase.py
 
 Here is a example:
-
+*
 CONFIG = {
 	"host": "localhost",
   	"user": "root",
  	"passwd": "zheliang415",
  	"database": "coindb"
 }
+*
 
-## 4. Run /initdatabase/initial.py
-python initial.py
+> 4. Run /initdatabase/initial.py
+*python initial.py*
 
-## 5. Start the django server in /coinsProject/src/ folder (for test)
-python manage.py runserver
+> 5. Start the django server in /coinsProject/src/ folder (for test)
+*python manage.py runserver*
 
-## 6. Open http://127.0.0.1:8000/
+> 6. Open http://127.0.0.1:8000/
 
-## 7. You can run /coinsProject/initdatabase/crontest.py in a cron way to maintain the data
+> 7. You can run /coinsProject/initdatabase/crontest.py in a cron way to maintain the data
 
-## 8. My virtualenv for reference (run pip freeze):
+> 8. My virtualenv for reference (run pip freeze):
 
 atomicwrites==1.2.1
 attrs==18.2.0
