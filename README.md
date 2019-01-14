@@ -1,17 +1,22 @@
 # coinsProject
 This is an assignment for Athanor interview
 1. Install coin metrics python wrapper in the coinsProject folder， here is the link: https://github.com/man-c/coinmetrics
-2.Install modules 
-  pip install mysql-connector-python-rf
-  pip install django
-  pip install mysqlclient
+
+2. Install modules 
+
+pip install mysql-connector-python-rf
+
+pip install django
+
+pip install mysqlclient
 
 3. Modify database setting for your mysql database in /coinsProject/src/initdatabase/mydatabase.py
+
 Here is a example:
 
 CONFIG = {
 	"host": "localhost",
-  "user": "root",
+  	"user": "root",
  	"passwd": "zheliang415",
  	"database": "coindb"
 }
@@ -27,6 +32,7 @@ python manage.py runserver
 7. You can run /coinsProject/initdatabase/crontest.py in a cron way to maintain the data
 
 8. My virtualenv for reference (run pip freeze):
+
 atomicwrites==1.2.1
 attrs==18.2.0
 certifi==2018.11.29
